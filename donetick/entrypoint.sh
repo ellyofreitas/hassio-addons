@@ -1,4 +1,4 @@
-#!/usr/bin/with-contenv bashio
+#!/usr/bin/env bashio
 
 CONFIG_PATH=/data/options.json
 
@@ -18,6 +18,10 @@ export DT_OAUTH2_TOKEN_URL=$(bashio::config 'oauth2_token_url')
 export DT_OAUTH2_USER_INFO_URL=$(bashio::config 'oauth2_user_info_url')
 export DT_OAUTH2_NAME=$(bashio::config 'oauth2_name')
 export DT_JWT_SECRET=$(bashio::config 'jwt_secret')
+
+bashio_test=$(bashio::config 'jwt_secret')
+
+bashio::log.info "test: $bashio_test"
 
 # Start donetick backend and save PID 
 bashio::log.info "Starting Donetick backend..."
