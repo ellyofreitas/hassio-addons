@@ -13,7 +13,7 @@ This is the official add-on for [Donetick](https://github.com/donetick/donetick)
 2. Go to **Settings** > **Add-ons** > **Add-on Store**.
 3. Click the three-dot menu in the top-right corner and select **Repositories**.
 4. Enter the URL of this repository:
-`https://github.com/Donetick/hassio-addons`
+`https://github.com/ellyofreitas/hassio-addons`
 5. Click **Add** 
 <!--
 
