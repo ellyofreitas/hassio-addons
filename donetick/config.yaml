@@ -20,7 +20,7 @@ ports:
   80/tcp: 8005
   2021/tcp: 2021
 webui: http://[HOST]:[PORT:2021]
-image: "ghcr.io/donetick/{arch}-hassio-addons"
+image: "ghcr.io/ellyofreitas/{arch}-hassio-addons"
 
 options:
   telegram_token: ""
