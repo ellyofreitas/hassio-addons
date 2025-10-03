@@ -1,5 +1,8 @@
 #!/usr/bin/with-contenv bashio
 
+CONFIG_PATH=/data/options.json
+
+bashio::log.info "test"
 
 # Envirment variables:
 export DT_TELEGRAM_TOKEN=$(bashio::config 'telegram_token')
