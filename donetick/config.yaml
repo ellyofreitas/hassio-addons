@@ -1,6 +1,6 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
 name: Donetick Addon
-version: "1.1.58"
+version: "1.1.60"
 slug: Donetick
 description: Simplify Tasks & Chores, Together.
 url: "https://github.com/ellyofreitas/hassio-addons/tree/main/donetick"
@@ -22,8 +22,6 @@ ports:
 webui: http://[HOST]:[PORT:2021]
 image: "ghcr.io/donetick/{arch}-hassio-addons"
 
-
-
 options:
   telegram_token: ""
   pushover_token: ""
@@ -38,7 +36,6 @@ options:
   oauth2_name: ""
   jwt_secret: ""
 
-
 schema:
   telegram_token: "str?"
   pushover_token: "str?"
@@ -52,4 +49,3 @@ schema:
   oauth2_user_info_url: "str?"
   oauth2_name: "str?"
   jwt_secret: "str?"
-
